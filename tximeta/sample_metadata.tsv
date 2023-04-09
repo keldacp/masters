@@ -1,0 +1,10 @@
+run_accession	sample_title	replicate	timepoint	condition
+SRR6997095	thp1_1	1	0h	untreated
+SRR6997096	thp1_2	2	0h	untreated
+SRR6997123	thp1_3	3	0h	untreated
+SRR6997122	thp1_vd3_1	1	72h	vd3_treated
+SRR6997124	thp1_vd3_2	2	72h	vd3_treated
+SRR6997125	thp1_vd3_3	3	72h	vd3_treated
+SRR6997118	thp1_pma_1	1	72h	pma_treated
+SRR6997119	thp1_pma_2	2	72h	pma_treated
+SRR6997121	thp1_pma_3	3	72h	pma_treated

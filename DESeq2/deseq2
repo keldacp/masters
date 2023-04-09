@@ -1,0 +1,28 @@
+ # Load gene-level summarized experiment (repeat for each treatment)
+gse <- readRDS("path/to/gse")
+
+# Load tools
+library(DESeq2)
+
+# Create deseq data set
+
+dds <- DESeqDataSet(gse, design = ~ condition) #specifying study design according to metadata
+dds
+
+dds$condition <- relevel(dds$condition, ref = "untreated") # relevel the factors of the condition so the untreated samples are the reference samples
+levels(dds$condition) # Check factor levels 
+#saveRDS(dds, "path")
+
+
+###### Count Transformation - variance stabilization 
+
+vsd <- vst(dds)
+#saveRDS(vsd, "path")
+#saveRDS(rld, "path")
+
+
+dds_deseq <- DESeq(dds) #run deseq function
+res <- results(dds_deseq, alpha = 0.05,lfcThreshold = 1) #extract results with a signifcance threshold of 0.05 and a log2 fold threshold of 1
+summary(res)
+
+#saveRDS(res, "path")

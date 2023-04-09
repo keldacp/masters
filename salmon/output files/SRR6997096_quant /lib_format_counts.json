@@ -1,0 +1,22 @@
+{
+    "read_files": "[ ./MSc/data/raw_data/SRR6997096//SRR6997096_1.fastq.gz, ./MSc/data/raw_data/SRR6997096//SRR6997096_2.fastq.gz]",
+    "expected_format": "ISF",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 39242184,
+    "num_assigned_fragments": 39242184,
+    "num_frags_with_concordant_consistent_mappings": 38883937,
+    "num_frags_with_inconsistent_or_orphan_mappings": 375275,
+    "strand_mapping_bias": 0.9999944964723545,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 38883937,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 214,
+    "SF": 91927,
+    "SR": 283134,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

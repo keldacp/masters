@@ -1,0 +1,14 @@
+{
+    "salmon_version": "1.8.0",
+    "index": "/home/studentsgh129/Downloads/salmon_pa_index/trancripts_index/",
+    "libType": "A",
+    "mates1": "./MSc/data/raw_data/SRR6997118//SRR6997118_1.fastq.gz",
+    "mates2": "./MSc/data/raw_data/SRR6997118//SRR6997118_2.fastq.gz",
+    "threads": "8",
+    "recoverOrphans": [],
+    "output": "/media/studentsgh129/keldadrive/MSc/work/decoy_quants/SRR6997118_quant ",
+    "seqBias": [],
+    "gcBias": [],
+    "validateMappings": [],
+    "auxDir": "aux_info"
+}
